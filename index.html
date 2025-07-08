@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Para Ari 💌</title>
+  <link rel="stylesheet" href="estilo.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+</head>
+<body onclick="crearCorazon(event)">
+
+  <!-- Fondos animados -->
+  <div class="kitty-container" id="kittyContainer"></div>
+  <div class="pooh-container" id="poohContainer"></div>
+
+  <!-- SOBRE -->
+  <div class="sobre" id="sobre">
+    <div class="solapa"></div>
+
+    <!-- Corazón decorativo -->
+    <div class="corazon">
+      <img src="https://cdn-icons-png.flaticon.com/512/833/833472.png" alt="corazon" />
+    </div>
+
+    <!-- Botón -->
+    <div class="contenido-sobre">
+      <button onclick="mostrarCarta()">💌 PRESIÓNAME</button>
+    </div>
+  </div>
+
+  <!-- CARTA -->
+  <div class="carta" id="carta">
+    <button class="cerrar" onclick="cerrarCarta()">✖ CERRAR</button>
+    <div class="contenido-carta scroll">
+      <p>
+        Ari preciosa, quizás esto no sea tan elaborado y hermoso como me gustaría hacerlo, solo es un pequeño detalle para ti.<br><br>
+        Sé que te mereces esto y mucho más, solo quería decirte que realmente estoy feliz de que hayas aparecido en mi vida y que ahora formes parte de mi día a día. Es algo que realmente no me esperaba y eso lo hace aún más importante.<br><br>
+        Nos conocimos ya hace como 2 años. Por algunas circunstancias ambos nos alejamos después de haber salido. Quizás no fue el momento para ninguno de los dos, y creo que el tiempo se encargó de alguna manera de volver a cruzarnos.<br><br>
+        Te voy conociendo poco a poco más, Ari, y quiero seguir sabiendo más de ti. Quiero saber todo de ti y solo poder quedarme a tu lado, ser tu apoyo en los momentos que te sientas sola, que sepas que para mí ya eres alguien muy importante.<br><br>
+        Te lo dije antes y reafirmo que realmente haría lo que sea por ti. He tratado de demostrarlo no solo con palabras, niña hermosa.<br><br>
+        No quiero hacer mucho texto para tus ojitos hermosa, ya que este no será el último detalle que te haga del mismo estilo, serán muchos más.<br><br>
+        Te quiero mucho, preciosa, y gracias una vez más por hacer que mis días complicados dejen de serlo solo con ver un mensaje tuyo en la mañana o en el transcurso del día.<br><br>
+        Eres una niña maravillosa que admiro mucho, por tu esfuerzo en el día a día. Todo te será recompensado de muchas formas. Yo solo quiero verte feliz y hacerte feliz siempre.<br><br>
+        Te quiero, te quiero preciosa.
+      </p>
+      <p class="firma">De Adrian para la niña más hermosa del mundo 💖</p>
+    </div>
+  </div>
+
+  <!-- Corazones flotantes -->
+  <div id="corazones-container"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
